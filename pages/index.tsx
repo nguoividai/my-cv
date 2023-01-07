@@ -24,7 +24,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className="row flex-column-reverse flex-sm-column-reverse flex-md-row">
+        <div
+          style={{ rowGap: 40 }}
+          className="row flex-column-reverse flex-sm-column-reverse flex-md-row"
+        >
           <div className="col-12 col-md-8 col-lg-9">
             <Top />
 
