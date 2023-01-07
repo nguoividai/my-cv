@@ -5,7 +5,14 @@ const mont = Montserrat({ subsets: ["latin"] });
 
 const Top = () => {
   return (
-    <div className="content-area" id="name">
+    <div
+      data-aos="fade-down-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="content-area"
+      id="name"
+    >
       <div className={mont.className}>
         <h1>
           Le Ky <br />

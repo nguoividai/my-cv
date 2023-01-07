@@ -6,7 +6,14 @@ const mont = Montserrat({ subsets: ["latin"] });
 
 const Skills = () => {
   return (
-    <div className="content-area" id="my-skills">
+    <div
+      data-aos="fade-down-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      className="content-area"
+      id="my-skills"
+    >
       <div className={mont.className}>
         <h2>MY SKILLS</h2>
 

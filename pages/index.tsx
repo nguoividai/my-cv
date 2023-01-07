@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Montserrat } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Layout from "../layout/Layout";
-import { ReactElement } from "react";
+import { ReactElement, useEffect } from "react";
 import Top from "../components/pages/Home/Top";
 import Navigator from "../components/pages/Home/Navigator";
 import AboutMe from "components/pages/Home/AboutMe";
@@ -11,10 +10,12 @@ import Skills from "components/pages/Home/Skills";
 import Experiences from "components/pages/Home/Experiences";
 import Projects from "components/pages/Home/Projects";
 import Contact from "components/pages/Home/Contact";
-
-const mont = Montserrat({ subsets: ["latin"] });
-
+import AOS from "aos";
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Head>
