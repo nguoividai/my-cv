@@ -12,7 +12,7 @@ const Navigator = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        const sortedEntries = entries.toSorted(
+        const sortedEntries = entries.sort(
           (a, b) => b.intersectionRatio - a.intersectionRatio
         );
 
