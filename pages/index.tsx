@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Montserrat } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Layout from "../layout/Layout";
 import { ReactElement, useEffect } from "react";
@@ -11,6 +10,7 @@ import Experiences from "components/pages/Home/Experiences";
 import Projects from "components/pages/Home/Projects";
 import Contact from "components/pages/Home/Contact";
 import AOS from "aos";
+
 export default function Home() {
   useEffect(() => {
     AOS.init();
@@ -23,6 +23,9 @@ export default function Home() {
         <meta name="description" content="CV - Le Ky Lan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="/top-logo.svg" />
+        <meta property="og:title" content="CV - Le Ky Lan" />
+        <meta property="og:description" content="Fullstack Web Developer" />
       </Head>
       <main className={styles.main}>
         <div

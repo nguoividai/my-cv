@@ -18,7 +18,7 @@ const Top = () => {
           Le Ky <br />
           Lan
         </h1>
-        <p className="my-description">Freelance Web Developer</p>
+        <p className="my-description">Fullstack Web Developer</p>
       </div>
     </div>
   );

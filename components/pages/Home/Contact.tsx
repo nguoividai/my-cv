@@ -1,5 +1,4 @@
 import { Montserrat } from "@next/font/google";
-import RankProgress from "components/common/RankProgress";
 import Link from "next/link";
 import React from "react";
 
