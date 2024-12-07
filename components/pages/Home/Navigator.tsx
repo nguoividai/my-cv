@@ -21,11 +21,11 @@ const Navigator = () => {
         }
       },
       {
-        threshold: 0.5, // Tỉ lệ phần tử xuất hiện trong viewport (50%)
+        threshold: 0.5,
       }
     );
 
-    const sections = document.querySelectorAll(".aos-init"); // Các phần tử cần theo dõi
+    const sections = document.querySelectorAll(".content-area"); // Các phần tử cần theo dõi
     sections.forEach((section) => observer.observe(section));
 
     // Clean up observer khi component unmount
