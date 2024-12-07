@@ -22,6 +22,9 @@ const Skills = () => {
             <RankProgress title="REACT JS" percent={80} />
           </div>
           <div className="col-12 col-lg-6">
+            <RankProgress title="VUE JS (2 / 3)" percent={80} />
+          </div>
+          <div className="col-12 col-lg-6">
             <RankProgress title="JAVASCRIPT" percent={80} />
           </div>
           <div className="col-12 col-lg-6">
@@ -37,7 +40,10 @@ const Skills = () => {
             <RankProgress title="JQUERY" percent={70} />
           </div>
           <div className="col-12 col-lg-6">
-            <RankProgress title="GIT" percent={60} />
+            <RankProgress title="GIT" percent={70} />
+          </div>
+          <div className="col-12 col-lg-6">
+            <RankProgress title="PHP / LARAVEL / WORDPRESS" percent={70} />
           </div>
           <div className="col-12 col-lg-6">
             <RankProgress title="JEST (TDD)" percent={60} />
@@ -46,16 +52,10 @@ const Skills = () => {
             <RankProgress title="PHOTOSHOP" percent={60} />
           </div>
           <div className="col-12 col-lg-6">
-            <RankProgress title="VUE JS" percent={50} />
-          </div>
-          <div className="col-12 col-lg-6">
             <RankProgress title="NEXT JS" percent={50} />
           </div>
           <div className="col-12 col-lg-6">
-            <RankProgress title="PHP / LARAVEL / WORDPRESS" percent={50} />
-          </div>
-          <div className="col-12 col-lg-6">
-            <RankProgress title="ENGLISH" percent={40} />
+            <RankProgress title="ENGLISH" percent={50} />
           </div>
           <div className="col-12 col-lg-6">
             <RankProgress title="EXPRESS JS" percent={30} />

@@ -29,21 +29,13 @@ const Projects = () => {
                 </>
               }
               content={
-                <>
-                  <p>
-                    Management task list with category. Task list pending. Task
-                    list completed. Task list follow. Report. Hidden category
-                    (if you don&apos;t want to working task with this category).
-                    Warning overdue task. Build real steps to make this task.
-                    Mail notification. Task counting time.
-                  </p>
-                  <p style={{ marginTop: 10 }}>
-                    <strong style={{ marginRight: 5 }}>Link:</strong>
-                    <Link href="https://todoapp.allistop.com/" target="_blank">
-                      https://todoapp.allistop.com
-                    </Link>
-                  </p>
-                </>
+                <p>
+                  Management task list with category. Task list pending. Task
+                  list completed. Task list follow. Report. Hidden category (if
+                  you don&apos;t want to working task with this category).
+                  Warning overdue task. Build real steps to make this task. Mail
+                  notification. Task counting time.
+                </p>
               }
             />
           </div>
@@ -56,14 +48,12 @@ const Projects = () => {
                 </>
               }
               content={
-                <>
-                  <p>
-                    HR Management. Payroll System. Document Iso, document in /
-                    out. Attendance sheet. Overtime management. Annual leave.
-                    Task management. IT Asset management. IT Helpdesk. Travel
-                    request process. Employee management. Project Management.
-                  </p>
-                </>
+                <p>
+                  HR Management. Payroll System. Document Iso, document in /
+                  out. Attendance sheet. Overtime management. Annual leave. Task
+                  management. IT Asset management. IT Helpdesk. Travel request
+                  process. Employee management. Project Management.
+                </p>
               }
             />
           </div>
@@ -76,12 +66,10 @@ const Projects = () => {
                 </>
               }
               content={
-                <>
-                  <p>
-                    Booking for nails system / restaurant. Business trip /
-                    Vehicle / Flight / Meeting Room.
-                  </p>
-                </>
+                <p>
+                  Booking for nails system / restaurant. Business trip / Vehicle
+                  / Flight / Meeting Room.
+                </p>
               }
             />
           </div>
@@ -94,12 +82,10 @@ const Projects = () => {
                 </>
               }
               content={
-                <>
-                  <p>
-                    Daily freight management system include: order, payment,
-                    tracking inventory.
-                  </p>
-                </>
+                <p>
+                  Daily freight management system include: order, payment,
+                  tracking inventory.
+                </p>
               }
             />
           </div>
@@ -108,34 +94,36 @@ const Projects = () => {
               counter={5}
               title={
                 <>
+                  Shop <br /> Management System{" "}
+                </>
+              }
+              content={
+                <p>
+                  To manage stock, invoices, orders, and bookings efficiently,
+                  it is important to set up an organized system that can track
+                  these elements in real-time, integrate smoothly, and offer
+                  useful reporting.
+                </p>
+              }
+            />
+          </div>
+          <div className="col-12 col-lg-6 col-xl-4">
+            <CardProject
+              counter={6}
+              title={
+                <>
                   Mini <br /> Projects
                 </>
               }
               content={
-                <>
-                  <p>
-                    <Link
-                      href="https://codesandbox.io/s/book-1hpce6"
-                      target="_blank"
-                    >
-                      https://codesandbox.io/s/book-1hpce6 : Design book 3D
-                    </Link>
-                  </p>
-                  <p style={{ marginTop: 10 }}>
-                    <Link href="http://order.allistop.com" target="_blank">
-                      http://order.allistop.com : Design template food order
-                    </Link>
-                  </p>
-                  <p style={{ marginTop: 10 }}>
-                    <Link
-                      href="http://jobseeking.allistop.com/"
-                      target="_blank"
-                    >
-                      http://jobseeking.allistop.com: Design template for job
-                      seeking
-                    </Link>
-                  </p>
-                </>
+                <p>
+                  <Link
+                    href="https://codesandbox.io/s/book-1hpce6"
+                    target="_blank"
+                  >
+                    https://codesandbox.io/s/book-1hpce6 : Design book 3D
+                  </Link>
+                </p>
               }
             />
           </div>

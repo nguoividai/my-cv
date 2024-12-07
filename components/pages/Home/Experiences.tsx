@@ -19,7 +19,14 @@ const Experiences = () => {
 
         <div className="timeline">
           <div className="timeline-item">
-            <div className="timeline-date">10/2022 - NOW</div>
+            <div className="timeline-date">06/2023 - NOW</div>
+            <h3 className="timeline-title">Joblogic</h3>
+            <div className="timeline-description">
+              Frontend Developer - Mentor Newbie - Interviewer
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-date">10/2022 - 6/2023</div>
             <h3 className="timeline-title">Freelance</h3>
             <div className="timeline-description">Frontend Developer</div>
           </div>
