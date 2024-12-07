@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:image"
-          content="https://lekylan.vercel.app//top-logo.svg"
+          content="https://lekylan.vercel.app/top-logo.svg"
         />
         <meta property="og:title" content="CV - Le Ky Lan" />
         <meta property="og:description" content="Fullstack Web Developer" />
