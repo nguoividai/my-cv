@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Montserrat } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Layout from "../layout/Layout";
-import { ReactElement, useEffect } from "react";
+import { ReactElement, useEffect, useState } from "react";
 import Top from "../components/pages/Home/Top";
 import Navigator from "../components/pages/Home/Navigator";
 import AboutMe from "components/pages/Home/AboutMe";

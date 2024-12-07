@@ -1,5 +1,4 @@
 import { Montserrat } from "@next/font/google";
-import RankProgress from "components/common/RankProgress";
 import React from "react";
 
 const mont = Montserrat({ subsets: ["latin"] });
