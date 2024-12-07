@@ -55,6 +55,9 @@ const Skills = () => {
             <RankProgress title="NEXT JS" percent={50} />
           </div>
           <div className="col-12 col-lg-6">
+            <RankProgress title="Docker" percent={50} />
+          </div>
+          <div className="col-12 col-lg-6">
             <RankProgress title="ENGLISH" percent={50} />
           </div>
           <div className="col-12 col-lg-6">
